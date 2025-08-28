@@ -22,8 +22,7 @@ The system operates on two primary pipelines: **Indexing (Offline)** and **Query
 1.  **Indexing Pipeline (Offline)**: This is a one-time process to build the knowledge base. The PDF documents are loaded, split into smaller chunks, converted into numerical vectors (embeddings), and stored in an efficient vector database (FAISS) for fast retrieval.
 2.  **Querying Pipeline (Online)**: When a user asks a question, it is first transformed into a standalone query based on the conversation's context. This transformed query is then used to retrieve the most relevant document chunks from the FAISS index. Finally, these chunks and the chat history are passed to the Gemini API to generate a final, contextual answer.
 
-![RAG Workflow](flowchart.png)
-*Ensure your `flowchart.png` file is in the root directory for this image to display.*
+![Chatbot Workflow](flowchart_chatbot.png)
 
 ---
 
@@ -100,12 +99,6 @@ The application is run in two stages:
 *It is highly recommended to add a screenshot of your running application here to provide a visual overview.*
 
 ![Application Demo](example.png)
-
----
-
-## 📸 Flowchart
-
-![Flowchart Chatbot](flowchart_chatbot.png)
 
 ---
 
