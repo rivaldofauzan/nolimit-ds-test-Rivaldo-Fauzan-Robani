@@ -105,9 +105,7 @@ The application is run in two stages:
 
 ## 📸 Flowchart
 
-![Flowchart Indexing Pipeline](Indexing_Pipeline.png)
-
-![Flowchart Query Pipeline](Query_Pipeline.png)
+![Flowchart Indexing Pipeline](Indexing_Pipeline.png)![Flowchart Query Pipeline](Query_Pipeline.png)
 
 ---
 
