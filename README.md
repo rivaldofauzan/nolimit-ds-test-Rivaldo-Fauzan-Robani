@@ -93,6 +93,21 @@ The application is run in two stages:
     streamlit run app.py
     ```
     The application will automatically open in your web browser.
+---
+
+## 📸 Application Demo
+
+*It is highly recommended to add a screenshot of your running application here to provide a visual overview.*
+
+![Application Demo](example.png)
+
+---
+
+## 📸 Flowchart
+
+![Flowchart Indexing Pipeline](Indexing_Pipeline.png)
+
+![Flowchart Query Pipeline](Query_Pipeline.png)
 
 ---
 

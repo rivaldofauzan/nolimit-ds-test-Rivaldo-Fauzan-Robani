@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 
 st.set_page_config(
-    page_title="Contextual RAG Chatbot",
+    page_title="RAG Chatbot",
     page_icon="🧠",
     layout="wide"
 )
@@ -90,7 +90,7 @@ def generate_answer_with_gemini(chat_history, context_docs, latest_question):
 
 
 
-st.title("🧠 Chatbot RAG Kontekstual dengan Gemini")
+st.title("🧠 Chatbot — Retrieval-Augmented Generation")
 
 
 if "chat_sessions" not in st.session_state:
