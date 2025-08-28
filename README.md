@@ -96,8 +96,6 @@ The application is run in two stages:
 
 ## 📸 Application Demo
 
-*It is highly recommended to add a screenshot of your running application here to provide a visual overview.*
-
 ![Application Demo](example.png)
 
 ---
